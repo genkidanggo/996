@@ -7,6 +7,8 @@ public class Vehicle04T {
         Vehicle04 v1 = new Vehicle04(70,"汽车");
         System.out.println(v1.type +"的速度为：" +v1.speed);
         v1.speedUp(20);
-        v1.speedDown(20);
+        v1.move();
+        v1.speedDown(50);
+        v1.move();
     }
 }

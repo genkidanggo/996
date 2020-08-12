@@ -10,7 +10,7 @@ public class Vehicle04 {
     }
 
     public void move(){
-        System.out.println(type + "能够移动");
+        System.out.println(type +"的速度为：" +speed);
     }
 
     public void setSpeed(double s) {
@@ -19,11 +19,8 @@ public class Vehicle04 {
 
     public void speedUp(double s){
         this.speed += s;
-        System.out.println("加速后速度为：" +this.speed);
     }
     public void speedDown(double s){
         this.speed -= s;
-        System.out.println("减速后速度为：" +this.speed);
-
     }
 }
