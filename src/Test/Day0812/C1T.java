@@ -1,10 +1,14 @@
 package Test.Day0812;
 
-import Main.Day0812.C1;
-
 public class C1T {
     public static void main(String[] args) {
-        C1 c1 = new C1();
+        String[] strings = {"ramer","jelly","been","cake"};
+        String[] tp = new String[strings.length];
 
-    }
+        for (int i = 0,j = strings.length-1; i < strings.length; i++,j--){
+            tp[i] = strings[j];
+        }
+        for (String s : tp)
+            System.out.println(s);
+}
 }
