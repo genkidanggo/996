@@ -9,7 +9,7 @@ public class C1 {
         int[][] a1 = new int[2][2];
         int a2[][] = new int[2][2];
         int[][] a3 = new int[2][];
-        int a4[][] = new int[2][];
+        int a4[][] = new int[][]{{2,3},{3,4}};
         int[][] a5 = {{1,1},{2,2}};
         //赋值
         a1[0][0] = 1;
